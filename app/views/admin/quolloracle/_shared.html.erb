@@ -1,0 +1,25 @@
+<h2><%= form_data.quoll_query.name %></h2>
+<% if last_form_data.size>0 %>
+    Reuse
+    <% last_form_data.each do |fd| %>
+        <a class="quoll_button orange" href=/admin/quolloracle?a=edit&fd=<%= fd.id %>><%= fd.name %></a>
+    <% end %>
+    <% if form_data.id %>
+        &nbsp;
+        <a class="quoll_button blue" href=/admin/quolloracle?a=new&q=<%= form_data.quoll_query.id %>>New</a>
+        &nbsp;
+        <a class="quoll_button purple" href=/admin/quolloracle?a=destroy&fd=<%= form_data.id %>>Delete</a>
+    <% end %>
+    <br><br>
+<% end %>
+<%= semantic_form_for(form_data, url: "/admin/quolloracle?action=show", html: {method: "get"}) do |f| %>
+    <%= f.inputs name: " " do %>
+        <%= f.input :name, as: :string %>
+        <%= f.input :quoll_query_id, as: :hidden %>
+        <% form_data.quoll_query.form.split("\n").each do |p| %>
+            <%= eval(p) %>
+        <% end %>
+    <% end %>
+    <%= f.submit "Execute query", class: "quoll_button green" %>
+<% end %>
+

@@ -1,0 +1,48 @@
+
+
+/* the two main divisions */
+
+.oracle_left {
+    width:30%;
+    border-right:1px solid #aaa !important;
+    margin:0em !important;
+    padding:1em !important;
+    float:left !important;
+    min-height:1000px;
+}
+
+.oracle_right {
+    width:65%;
+    margin-left:2em !important;
+    background-color:#fff !important;
+    float:left !important
+}
+
+.oracle_group {
+    margin-bottom:3em !important;
+}
+
+.query-form {
+    padding:1em !important;
+    float: left !important;
+}
+
+.form_data_submit {
+    margin-left:1em !important;
+}
+
+/* tables */
+
+.quoll_table {
+    border-bottom:1px solid black !important;
+}
+
+.quoll_th {
+    border-top:1px solid black !important;
+    border-bottom:1px solid black !important;
+}
+
+#query_report {
+    font-family:"Courier" !important;
+    font-size:1.1em;
+}
