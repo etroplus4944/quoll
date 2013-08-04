@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Quoll::VERSION
   s.authors     = ["Kurt Schwarze","Michael Krüger"]
   s.email       = ["schwarze@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://www.macwombat.de/quoll"
   s.summary     = "Simple reporting engine for activeadmin"
   s.description = "Simple reporting engine for activeadmin"
 
