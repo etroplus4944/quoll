@@ -7,11 +7,11 @@ require "quoll/version"
 Gem::Specification.new do |s|
   s.name        = "quoll"
   s.version     = Quoll::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Kurt Schwarze","Michael Krüger"]
+  s.email       = ["schwarze@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Quoll."
-  s.description = "TODO: Description of Quoll."
+  s.summary     = "Simple reporting engine for activeadmin"
+  s.description = "Simple reporting engine for activeadmin"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
