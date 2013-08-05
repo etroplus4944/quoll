@@ -53,7 +53,12 @@ class QuollTable
   def add_sql_row_col_val(sql)
     results=ActiveRecord::Base.connection().execute(sql)
     results.each do |row|
-      cols=row.values
+      # mysql returns array, postgres not an array
+      if row.class!=Array
+        cols=row.values 
+      else
+        cols=row
+      end
       add(cols[0], cols[1], cols[2].to_i)
     end
   end
