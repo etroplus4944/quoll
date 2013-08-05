@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    quoll (0.0.1)
-      rails (~> 3.2.14)
+    quoll (0.0.2)
+      rails (~> 3.2.1)
 
 GEM
   remote: https://rubygems.org/

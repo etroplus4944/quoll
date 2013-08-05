@@ -1,8 +1,8 @@
 module Quoll
   class Engine < ::Rails::Engine
+    require File.dirname(__FILE__) + '/../../app/models/quoll_group.rb'
+    require File.dirname(__FILE__) + '/../../app/models/quoll_query.rb'
     config.after_initialize do
-      require File.dirname(__FILE__) + '/../../app/models/quoll_group.rb'
-      require File.dirname(__FILE__) + '/../../app/models/quoll_query.rb'
       require File.dirname(__FILE__) + '/../../app/admin/quoll_group.rb'
       require File.dirname(__FILE__) + '/../../app/admin/quoll_oracle.rb'
       require File.dirname(__FILE__) + '/../../app/admin/quoll_query.rb'
