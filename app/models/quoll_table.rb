@@ -7,6 +7,8 @@ class QuollTable
   end
 
   def add(row, col, val)
+    row||=""
+    col||=""
     @table[row]={} if !@table[row]
     @table[row][col]=val
     @cols<<col
@@ -55,11 +57,17 @@ class QuollTable
     results.each do |row|
       # mysql returns array, postgres not an array
       if row.class!=Array
-        cols=row.values 
+        cols=row.values
       else
         cols=row
       end
-      add(cols[0], cols[1], cols[2].to_i)
+      v=cols[2]
+      if v.to_s.include? "."
+        v=v.to_f
+      else
+        v=v.to_i
+      end
+      add(cols[0], cols[1], v)
     end
   end
 

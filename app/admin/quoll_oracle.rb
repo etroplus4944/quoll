@@ -22,6 +22,10 @@ ActiveAdmin.register_page "QuollOracle" do
       end
     end
 
+    def add(row,col,val)
+      @table.add(row,col,val)
+    end
+
     def to_file()
       QuollComponent.file("xlala",@table)
     end
