@@ -1,3 +1,3 @@
 module Quoll
-  VERSION = "0.0.5.rev1"
+  VERSION = "0.0.6"
 end
