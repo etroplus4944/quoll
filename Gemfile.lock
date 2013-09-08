@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    quoll (0.0.2)
+    quoll (0.0.4)
       rails (~> 3.2.1)
 
 GEM

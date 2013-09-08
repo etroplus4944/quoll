@@ -1,3 +1,5 @@
+require "CSV"
+
 class QuollComponent
 
   # options:
@@ -102,8 +104,13 @@ class QuollComponent
     re+"</table"
   end
 
-  def self.file(file_name, table)
-    File.open(file_name, "w") { |file| file.write "pop" }
+  def self.file(file_name, table, &block)
+    CSV.open("#{file_name}","wb") do |csv|
+      csv << table.cols.inject(['']) {|r,c| r << self.val("_", c, c, &block)}
+      table.rows.each do |r|
+        csv << table.cols.inject([self.val(r, "_", r, &block)]) {|res,c| res << self.val(r, c, table.get(r, c), &block).to_s}
+      end
+    end
   end
 
 

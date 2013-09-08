@@ -1,5 +1,6 @@
-ActiveAdmin.register_page "QuollOracle" do
 
+ActiveAdmin.register_page "QuollOracle" do
+  require "zip/zip"
   menu priority: 1, parent: "Quoll"
 
   content :title => "Quoll" do
@@ -12,6 +13,7 @@ ActiveAdmin.register_page "QuollOracle" do
     form_data_obj=QuollFormData.new(params[:quoll_form_data]) if params[:quoll_form_data]
 
     @table=QuollTable.new
+    @files_to_zip=[]
 
     def add_sql(*sql)
       if sql[0].class==Symbol
@@ -26,8 +28,9 @@ ActiveAdmin.register_page "QuollOracle" do
       @table.add(row,col,val)
     end
 
-    def to_file()
-      QuollComponent.file("xlala",@table)
+    def to_file(file_name)
+      QuollComponent.file("public/"+file_name,@table)
+      @files_to_zip<<file_name
     end
 
     def one_row_query(sql)
@@ -60,6 +63,16 @@ ActiveAdmin.register_page "QuollOracle" do
 
     def add_options(options)
       @table.add_options(options)
+    end
+
+    def create_file
+        zip_file_name="#{rand()}"[2,1000]+".zip"
+        Zip::ZipFile.open("public/"+zip_file_name, Zip::ZipFile::CREATE) do |zipfile|
+          @files_to_zip.each do |filename|
+            zipfile.add(filename, 'public/' + filename)
+          end
+        end
+        zip_file_name
     end
 
     div class: "oracle_left" do
@@ -140,8 +153,8 @@ ActiveAdmin.register_page "QuollOracle" do
         string9=data.string9
 
         report=ERB.new(query.report).result(binding)
- #       file=create_file
-        render partial: "show", locals: {data: data, report: report, query_id: query_id}
+        file=create_file
+        render partial: "show", locals: {data: data, report: report, query_id: query_id,file:file}
       end
     end
   end
