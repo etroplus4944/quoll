@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="157dbb59-08ea-476c-a979-c85fb0ee569e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/quoll_component.rb" afterPath="$PROJECT_DIR$/app/models/quoll_component.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/quoll_oracle.rb" afterPath="$PROJECT_DIR$/app/admin/quoll_oracle.rb" />
     </list>
     <ignored path="Quoll.iws" />
@@ -18,7 +16,7 @@
     <file path="$PROJECT_DIR$/../Registro/db/migrate/20130806180958_upload_error_description_is_text.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375812658049" ignored="false" />
     <file path="/20130806180958_upload_error_description_is_text.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375812657601" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/db/schema.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824526532" ignored="false" />
-    <file path="/quoll_oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378639353151" ignored="false" />
+    <file path="/quoll_oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378644341440" ignored="false" />
     <file path="/20110901012815_create_comments.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375823662224" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/db/migrate/20130806211549_admin_user_has_center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375823758924" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/admin/admin_user.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824002917" ignored="false" />
@@ -41,7 +39,7 @@
     <file path="/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375900906381" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/assets/javascripts/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375987025639" ignored="false" />
     <file path="/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375986995457" ignored="false" />
-    <file path="$PROJECT_DIR$/../Serclan/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378638781269" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378644228558" ignored="false" />
     <file path="/quoll_component.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378637808542" ignored="false" />
     <file path="/_show.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378639392398" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,7 +82,7 @@
       <file leaf-file-name="quoll_oracle.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/quoll_oracle.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="36" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.33467743">
+            <state line="74" column="24" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.3951613">
               <folding />
             </state>
           </provider>
@@ -775,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/quoll_oracle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="36" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.33467743">
+        <state line="74" column="24" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.3951613">
           <folding />
         </state>
       </provider>

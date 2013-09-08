@@ -72,6 +72,7 @@ ActiveAdmin.register_page "QuollOracle" do
             zipfile.add(filename, 'public/' + filename)
           end
         end
+        File.chmod(0644,"public/"+zip_file_name)
         zip_file_name
     end
 
