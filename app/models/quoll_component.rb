@@ -93,8 +93,10 @@ class QuollComponent
     end
     re+="</tr>"
     t.rows.each do |r|
+      r=r.to_s # sometimes we get ints or dates
       re += "<tr><td>"+self.val(r, "_", r, &block)+"</td>"
       t.cols.each do |c|
+        c=c.to_s
         re+="<td>"
         re+=self.val(r, c, t.get(r, c), &block).to_s
         re+="</td>"
