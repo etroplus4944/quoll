@@ -1,8 +1,8 @@
 <h2><%= data.quoll_query.name %></h2>
 <% if data.id %>
-    <a href=/admin/quolloracle?a=edit&fd=<%= data.id %> class="quoll_button orange">Back</a>
+    <a href=?a=edit&fd=<%= data.id %> class="quoll_button orange">Back</a>
 <% else %>
-    <a href=/admin/quolloracle?a=new&q=<%= data.quoll_query_id %> class="quoll_button orange">Back</a>
+    <a href=?a=new&q=<%= data.quoll_query_id %> class="quoll_button orange">Back</a>
 <% end %>
 <a href=fff class="quoll_button white">Download HTML</a>
 <a href=/<%=file%>/ class="quoll_button white">Download Archive</a>
