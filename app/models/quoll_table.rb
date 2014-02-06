@@ -21,7 +21,7 @@ class QuollTable
   end
 
   def to_2d_array(null_value)
-    r=[[0]+@cols.to_a]
+    r=[["0"]+@cols.to_a]
     @rows.each do |row|
       new_row=[row]
       @cols.each do |col|
