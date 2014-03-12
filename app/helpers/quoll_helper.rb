@@ -34,12 +34,15 @@ module QuollHelper
       end
       f.buttons
     end
-    show do |g|
+    show do |q|
       attributes_table do
         row :name
         row :description
         row :form
-        row :report
+        row :report do
+          r=q.report.gsub(/\n/,"<br>".html_safe)
+          r.html_safe
+        end
         row :quoll_group
       end
     end
@@ -109,7 +112,7 @@ module QuollHelper
         QuollGroup.all.each do |group|
           div class: "oracle_group" do
             h3 group.name
-            group.quoll_queries.all.each do |query|
+            group.quoll_queries.all.sort{|a,b| a.name<=>b.name}.each do |query|
               #1/0
               current_query=query_id.to_i
               current_query=QuollFormData.find(form_data_id).quoll_query_id if form_data_id

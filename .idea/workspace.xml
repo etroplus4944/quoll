@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157dbb59-08ea-476c-a979-c85fb0ee569e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/quoll_group.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/quoll_oracle.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/quoll_query.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Quoll.iml" afterPath="$PROJECT_DIR$/.idea/Quoll.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/quoll/engine.rb" afterPath="$PROJECT_DIR$/lib/quoll/engine.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/quoll.rb" afterPath="$PROJECT_DIR$/lib/quoll.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/quoll_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/quoll_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Quoll.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380920064694" ignored="false" />
+    <file path="/Dummy.txt" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1394575910335" ignored="false" />
     <file path="/quoll_table.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375899556104" ignored="false" />
     <file path="/engine.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380921225018" ignored="false" />
     <file path="/alfa.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375726896668" ignored="false" />
@@ -40,13 +35,13 @@
     <file path="$PROJECT_DIR$/../Registro/app/models/record.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375987834739" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/models/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824799295" ignored="false" />
     <file path="/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824798910" ignored="false" />
-    <file path="/*.regexp" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375986832903" ignored="false" />
+    <file path="/*.regexp" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1392214663223" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/config/initializers/levenshtein.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375825110728" ignored="false" />
     <file path="/levenshtein.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375825070300" ignored="false" />
     <file path="/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375900906381" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/assets/javascripts/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375987025639" ignored="false" />
     <file path="/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375986995457" ignored="false" />
-    <file path="$PROJECT_DIR$/../Serclan/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380449535104" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1391719270720" ignored="false" />
     <file path="/quoll_component.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378637808542" ignored="false" />
     <file path="/_show.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1378639392398" ignored="false" />
     <file path="/quoll.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380444986356" ignored="false" />
@@ -66,7 +61,7 @@
     <file path="/kuki.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380963406598" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/helpers/qaull_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380797771009" ignored="false" />
     <file path="/qaull_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380797687661" ignored="false" />
-    <file path="/quoll_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380928634782" ignored="false" />
+    <file path="/quoll_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1394576080969" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/kaka.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966744327" ignored="false" />
     <file path="/kaka.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966744327" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/koko.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966734666" ignored="false" />
@@ -78,6 +73,13 @@
     <file path="/papeletas_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380964138839" ignored="false" />
     <file path="/papeletas.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380965323790" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/papeletas.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380965622907" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/group.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988621337" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1391965083848" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988937829" ignored="false" />
+    <file path="/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988167589" ignored="false" />
+    <file path="/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988615103" ignored="false" />
+    <file path="/group.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988621337" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/fresh.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380989267883" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,19 +99,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="quoll_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="quoll_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="138" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+            <state line="114" column="64" selection-start="2890" selection-end="2890" vertical-scroll-proportion="0.3353204">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_shared.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="11" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoll_component.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="27" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoll_table.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quoll_table.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="10" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoll_query.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quoll_query.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="32" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoll_group.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quoll_group.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quoll_form_data.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quoll_form_data.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="22" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_shared.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="63" selection-start="912" selection-end="912" vertical-scroll-proportion="0.697026">
+            <state line="25" column="20" selection-start="912" selection-end="912" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
@@ -154,26 +210,26 @@
         <option value="$PROJECT_DIR$/config/initializers/alfa.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.14/guides/code/getting_started/db/migrate/20110901012815_create_comments.rb" />
-        <option value="$PROJECT_DIR$/app/models/quoll_table.rb" />
         <option value="$PROJECT_DIR$/lib/quoll/version.rb" />
         <option value="$PROJECT_DIR$/app/models/quoll_component.rb" />
         <option value="$PROJECT_DIR$/app/models/quoll.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_oracle.rb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_group.rb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_query.rb" />
         <option value="$PROJECT_DIR$/lib/quoll/engine.rb" />
         <option value="$PROJECT_DIR$/lib/quoll.rb" />
+        <option value="$PROJECT_DIR$/app/models/quoll_table.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/quoll_helper.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="648" />
+    <option name="x" value="145" />
     <option name="y" value="22" />
-    <option name="width" value="1032" />
-    <option name="height" value="1028" />
+    <option name="width" value="1030" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,6 +257,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,40 +431,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.scopes" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: Quoll">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -654,15 +692,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="648" y="22" width="1032" height="1028" extended-state="1" />
+    <frame x="145" y="22" width="1030" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46653143" sideWeight="0.6709539" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31199187" sideWeight="0.6722151" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -671,6 +708,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -742,45 +780,24 @@
         <state line="8" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.15852048" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="163" selection-end="163" vertical-scroll-proportion="0.22727273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_form_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="656" selection-end="656" vertical-scroll-proportion="0.21686748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_group.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.36144578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="554" selection-end="554" vertical-scroll-proportion="0.030120483" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/quoll/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_query.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="647" selection-end="647" vertical-scroll-proportion="0.6020067">
-          <folding />
-        </state>
+        <state line="3" column="28" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/quoll_tasks.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.10033445">
-          <folding />
-        </state>
+        <state line="4" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.10033445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/quoll/engine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.10033445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/quoll.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130804194154_populate.rb">
@@ -797,44 +814,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quoll/engine.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.10033445">
+        <state line="2" column="16" selection-start="37" selection-end="37" vertical-scroll-proportion="0.03314917" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_form_data.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="25" column="22" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="27" selection-start="1853" selection-end="1853" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="10" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="67" selection-end="67" vertical-scroll-proportion="0.05226481">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quoll.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="138" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0">
+        <state line="9" column="11" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="63" selection-start="912" selection-end="912" vertical-scroll-proportion="0.697026">
+        <state line="25" column="20" selection-start="912" selection-end="912" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_query.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="32" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="64" selection-start="2890" selection-end="2890" vertical-scroll-proportion="0.3353204">
           <folding />
         </state>
       </provider>
