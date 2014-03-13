@@ -87,7 +87,7 @@ class QuollComponent
 
   def self.table(t, &block)
     re="<h2>#{t.options[:title]}</h2>"
-    re+="<table class=quoll_table><tr><th class=quoll_th>#{self.val('_','_','_',&block)}</th>"
+    re+="<table class=quoll_table><tr><th class=quoll_th>#{self.val('_','_','',&block)}</th>"
     t.cols.each do |c|
       re+="<th class=quoll_th>"+self.val("_", c, c, &block)+"</th>"
     end

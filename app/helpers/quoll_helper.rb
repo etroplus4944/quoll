@@ -117,10 +117,10 @@ module QuollHelper
               current_query=query_id.to_i
               current_query=QuollFormData.find(form_data_id).quoll_query_id if form_data_id
               current_query=form_data_obj.quoll_query_id if form_data_obj
-              button_class=current_query!=query.id ? "quoll_button black" : "quoll_button purple"
-              a class: button_class, href: "?a=new&q=#{query.id}" do
+              button_class=current_query!=query.id ? "quoll_button blue" : "quoll_button purple"
+              div style:"margin-top:2px" do a class: button_class, href: "?a=new&q=#{query.id}" do
                 query.name
-              end
+              end    end
             end
           end
         end
