@@ -4,6 +4,7 @@ class QuollTable
     @table={}
     @cols=Set.new
     @rows=Set.new
+    @color={}
   end
 
   def add(row, col, val)
@@ -21,15 +22,24 @@ class QuollTable
   end
 
   def to_2d_array(null_value)
-    r=[["0"]+@cols.to_a]
+    r=[["0"]+@cols.to_a+[{ role: 'style' }]]
     @rows.each do |row|
       new_row=[row]
       @cols.each do |col|
-        new_row<<(get(row, col).to_f || null_value)
-      end
+        new_row<<get(row, col).to_f || null_value
+        new_row << (@color[row] || "")
+
+        end
       r<<new_row
     end
-    r
+    puts "----"
+    result=r.to_s.gsub(/:role=>/,"role:").to_s
+    puts result
+    result
+  end
+
+  def color(row, color)
+    @color[row]=color
   end
 
   def cols=(c)

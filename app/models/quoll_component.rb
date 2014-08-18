@@ -6,10 +6,37 @@ class QuollComponent
   # query: the identifier of the query
   # label and value: define the columns of the query to consider
   # title
-  def self.bar(table)
+  def self.bar(table,embedded)
     r=rand
-    table.rows=table.rows.sort
-    <<-eos
+    #table.rows=table.rows.sort
+    if embedded
+    e="style='width: 400px; height: 500px;'"
+    else
+      e="style='width: 900px; height: 500px'"
+    end
+if embedded!="1"
+  <<-eos
+     <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]})
+
+       google.setOnLoadCallback(function() {
+      var data = google.visualization.arrayToDataTable(#{table.to_2d_array(0)});
+
+      var options = {
+          title : '#{table.options[:title]||'You forgot to set :title'}',
+          seriesType: "bars",
+          legend: {position: 'none'},
+          series: {5: {type: "line"}}
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('#{r}'));
+    chart.draw(data, options);
+    })
+    </script>
+    <div id=#{r}></div>
+  eos
+   else
+     <<-eos
      <script type="text/javascript">
     google.load("visualization", "1", {packages:["corechart"]})
 
@@ -28,8 +55,10 @@ class QuollComponent
     chart.draw(data, options);
     })
     </script>
-    <div id=#{r} style="width: 900px; height: 500px;"></div>
-    eos
+    <div id=#{r}></div>
+     eos
+end
+
   end
 
 

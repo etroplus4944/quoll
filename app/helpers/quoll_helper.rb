@@ -66,6 +66,9 @@ module QuollHelper
           @table.add_sql(sql[0])
         end
       end
+      def color(row, color)
+        @table.color(row,color)
+      end
       def add(row, col, val)
         @table.add(row, col, val)
       end
@@ -89,8 +92,8 @@ module QuollHelper
       def to_area
         QuollComponent.area(@table)
       end
-      def to_bar
-        QuollComponent.bar(@table)
+      def to_bar(e=nil)
+        QuollComponent.bar(@table,e)
       end
       def to_table(&block)
         QuollComponent.table(@table, &block)
@@ -125,7 +128,11 @@ module QuollHelper
           end
         end
       end
-      div class: "oracle_right" do
+      style=""
+      if params[:e]
+        style="width:90%"
+      end
+      div style: style, class: "oracle_right" do
         if action=="new"
           form_data = QuollFormData.new
           form_data.quoll_query_id=query_id
@@ -181,7 +188,7 @@ module QuollHelper
           string9=data.string9
           report=ERB.new(query.report).result(binding)
           file=create_file
-          render partial: "admin/quolloracle/show", locals: {data: data, report: report, query_id: query_id, file: file}
+          render partial: "admin/quolloracle/show", locals: {data: data, report: report, query_id: query_id, file: file, e: params[:e]}
         end
       end
     end
