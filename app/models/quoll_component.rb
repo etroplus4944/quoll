@@ -25,7 +25,9 @@ if embedded!="1"
       var options = {
           title : '#{table.options[:title]||'You forgot to set :title'}',
           seriesType: "bars",
+          hAxis: {textColor: '#ffffff',title: '#{table.options[:haxis]||'You forgot to set :haxis'}'},
           legend: {position: 'none'},
+axisFontSize : 0,
           series: {5: {type: "line"}}
     };
 
@@ -46,8 +48,9 @@ if embedded!="1"
       var options = {
           title : '#{table.options[:title]||'You forgot to set :title'}',
           vAxis: {title: '#{table.options[:vaxis]||'You forgot to set :vaxis'}'},
-          hAxis: {title: '#{table.options[:haxis]||'You forgot to set :haxis'}'},
+          hAxis: {textColor: '#ffffff',title: '#{table.options[:haxis]||'You forgot to set :haxis'}'},
           seriesType: "bars",
+axisFontSize : 0,
           series: {5: {type: "line"}}
     };
 
@@ -132,7 +135,7 @@ end
       end
       re += "</tr>"
     end
-    re+"</table"
+    re+"</table>"
   end
 
   def self.file(file_name, table, &block)

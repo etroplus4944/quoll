@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="157dbb59-08ea-476c-a979-c85fb0ee569e" name="Default" comment="" />
+    <list default="true" id="157dbb59-08ea-476c-a979-c85fb0ee569e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Quoll.iml" afterPath="$PROJECT_DIR$/.idea/Quoll.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quoll.gemspec" afterPath="$PROJECT_DIR$/quoll.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/quoll_component.rb" afterPath="$PROJECT_DIR$/app/models/quoll_component.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/quoll_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/quoll_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/quoll_table.rb" afterPath="$PROJECT_DIR$/app/models/quoll_table.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Quoll.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408301036823" ignored="false" />
-    <file path="/quoll_table.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408126923397" ignored="false" />
+    <file path="/Dummy.txt" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1451808815355" ignored="false" />
+    <file path="/quoll_table.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1446320721684" ignored="false" />
     <file path="/engine.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380921225018" ignored="false" />
     <file path="/alfa.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375726896668" ignored="false" />
     <file path="/quoll_group.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380921466782" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375900908625" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1438630872625" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/db/migrate/20130806180958_upload_error_description_is_text.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375812658049" ignored="false" />
     <file path="/20130806180958_upload_error_description_is_text.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375812657601" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/db/schema.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824526532" ignored="false" />
@@ -19,28 +28,28 @@
     <file path="$PROJECT_DIR$/../Registro/app/admin/admin_user.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824002917" ignored="false" />
     <file path="/admin_user.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824438737" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/admin/center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375823990833" ignored="false" />
-    <file path="/center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824482952" ignored="false" />
+    <file path="/center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415860536278" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/models/admin_user.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406931583159" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/models/center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406931599122" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/models/center.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415986259118" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/admin/uploads.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824189458" ignored="false" />
     <file path="/uploads.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824168630" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/db/migrate/20130806212457_record_have_center_and_person.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824353024" ignored="false" />
     <file path="/20130806212457_record_have_center_and_person.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375824353024" ignored="false" />
-    <file path="/record.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934484772" ignored="false" />
+    <file path="/record.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892312761" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/models/record.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934485971" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/models/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406935239365" ignored="false" />
-    <file path="/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406935188686" ignored="false" />
-    <file path="/*.regexp" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1395257015696" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/models/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892306295" ignored="false" />
+    <file path="/upload.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892305985" ignored="false" />
+    <file path="/*.regexp" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1451808913509" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/config/initializers/levenshtein.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375825110728" ignored="false" />
     <file path="/levenshtein.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375825070300" ignored="false" />
     <file path="/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1375900906381" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/assets/javascripts/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1394699392603" ignored="false" />
     <file path="/active_admin.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1394699392264" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/Gemfile" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408383399301" ignored="false" />
-    <file path="/quoll_component.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408259523501" ignored="false" />
+    <file path="/quoll_component.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1416378729884" ignored="false" />
     <file path="/_show.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408257857837" ignored="false" />
     <file path="/quoll.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380444986356" ignored="false" />
-    <file path="/a.dummy" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408383538999" ignored="false" />
+    <file path="/a.dummy" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1444739753565" ignored="false" />
     <file path="/quoll_query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380921284092" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/config/initializers/del_proyecto.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380444981308" ignored="false" />
     <file path="/del_proyecto.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380444981308" ignored="false" />
@@ -56,26 +65,26 @@
     <file path="/kuki.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380963406598" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/helpers/qaull_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380797771009" ignored="false" />
     <file path="/qaull_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380797687661" ignored="false" />
-    <file path="/quoll_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408258983187" ignored="false" />
+    <file path="/quoll_helper.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1451808919356" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/kaka.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966744327" ignored="false" />
     <file path="/kaka.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966744327" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/koko.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966734666" ignored="false" />
     <file path="/koko.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380966734666" ignored="false" />
-    <file path="$PROJECT_DIR$/../Serclan/app/models/ability.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380963025555" ignored="false" />
-    <file path="/ability.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380963005959" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/app/models/ability.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1418746497580" ignored="false" />
+    <file path="/ability.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1418746497886" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/public/reemplazos_y_cambios.csv" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380963992772" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/controllers/papeletas_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380964333087" ignored="false" />
     <file path="/papeletas_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380964138839" ignored="false" />
     <file path="/papeletas.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380965323790" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/papeletas.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380965622907" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/admin/group.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988621337" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/admin/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1391965083848" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/admin/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988937829" ignored="false" />
-    <file path="/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988167589" ignored="false" />
-    <file path="/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988615103" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1438466294574" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1409398366667" ignored="false" />
+    <file path="/oracle.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1409398360070" ignored="false" />
+    <file path="/query.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1438466265879" ignored="false" />
     <file path="/group.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1380988621337" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/admin/fresh.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934416203" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/views/shared/_client.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1395258117979" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/views/shared/_client.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1438463880404" ignored="false" />
     <file path="$PROJECT_DIR$/../Monteblanco/app/models/ace.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406617336598" ignored="false" />
     <file path="/ace.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406617318161" ignored="false" />
     <file path="$PROJECT_DIR$/../Monteblanco/app/views/empty/empty.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406814590239" ignored="false" />
@@ -121,22 +130,44 @@
     <file path="$PROJECT_DIR$/../Registro/app/controllers/fps_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934428073" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/controllers/fresh_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934442644" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/controllers/ods_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934451581" ignored="false" />
-    <file path="$PROJECT_DIR$/../Registro/app/controllers/validations_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406931450542" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/controllers/validations_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892295089" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/models/fet.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406931774522" ignored="false" />
     <file path="$PROJECT_DIR$/../Registro/app/models/fresh.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406931645826" ignored="false" />
     <file path="/fresh.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934415007" ignored="false" />
     <file path="/fps_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934370891" ignored="false" />
     <file path="/fresh_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934441318" ignored="false" />
     <file path="/ods_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1406934450464" ignored="false" />
-    <file path="/control.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408301338307" ignored="false" />
-    <file path="$PROJECT_DIR$/../Serclan/app/admin/control.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408301340830" ignored="false" />
+    <file path="/control.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415793147666" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/app/admin/control.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415793812699" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/assets/javascripts/serclan.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408111835398" ignored="false" />
     <file path="/serclan.js" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408111717409" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/controllers/estadisticas_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408108720154" ignored="false" />
     <file path="/estadisticas_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408108711272" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/config/routes.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408108679572" ignored="false" />
-    <file path="/routes.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408108677517" ignored="false" />
+    <file path="/routes.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408801666966" ignored="false" />
     <file path="$PROJECT_DIR$/../Serclan/app/admin/estadisticas.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408184118030" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/config/serclan.yml" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408385484881" ignored="false" />
+    <file path="/serclan.yml" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408385484881" ignored="false" />
+    <file path="/_client.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1438463880748" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/dashboard.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408800574063" ignored="false" />
+    <file path="/dashboard.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408800574063" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/controllers/centers_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415736376662" ignored="false" />
+    <file path="/centers_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415736376662" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/config/routes.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408801666966" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/controllers/uploads_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408891934532" ignored="false" />
+    <file path="/uploads_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408891878254" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/admin/record.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415859905838" ignored="false" />
+    <file path="/validations_controller.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892294784" ignored="false" />
+    <file path="/ecsel.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892614432" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/models/ecsel.rb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1408892704516" ignored="false" />
+    <file path="/_shared.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1409386231405" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/assets/stylesheets/active_admin.css.scss" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1409395839048" ignored="false" />
+    <file path="/active_admin.css.scss" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1409395821655" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/app/views/shared/_ministats.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1416054111639" ignored="false" />
+    <file path="/_ministats.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1416051187863" ignored="false" />
+    <file path="$PROJECT_DIR$/../Registro/app/views/shared/_record.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1415986101605" ignored="false" />
+    <file path="$PROJECT_DIR$/../Serclan/app/views/shared/_ministats_admin.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1444840156495" ignored="false" />
+    <file path="/_ministats_admin.html.erb" changelist="157dbb59-08ea-476c-a979-c85fb0ee569e" time="1444697974700" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,28 +187,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="quoll_helper.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.33255813">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="quoll_table.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/quoll_table.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="7" selection-start="736" selection-end="760" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quoll_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="17" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="62" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="65" column="14" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,43 +208,7 @@
       <file leaf-file-name="quoll_component.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="66" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engine.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/quoll/engine.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="15" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quoll_tasks.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/quoll_tasks.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quoll.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/quoll.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="11" selection-start="42" selection-end="42" vertical-scroll-proportion="0.15789473">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/quoll/version.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="9" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+            <state line="137" column="16" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -249,26 +235,26 @@
         <option value="$PROJECT_DIR$/config/initializers/alfa.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.14/guides/code/getting_started/db/migrate/20110901012815_create_comments.rb" />
+        <option value="$PROJECT_DIR$/lib/quoll/version.rb" />
         <option value="$PROJECT_DIR$/app/models/quoll.rb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_oracle.rb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_group.rb" />
         <option value="$PROJECT_DIR$/app/admin/quoll_query.rb" />
         <option value="$PROJECT_DIR$/lib/quoll/engine.rb" />
         <option value="$PROJECT_DIR$/lib/quoll.rb" />
-        <option value="$PROJECT_DIR$/app/models/quoll_table.rb" />
-        <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/quoll_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb" />
         <option value="$PROJECT_DIR$/app/models/quoll_component.rb" />
-        <option value="$PROJECT_DIR$/lib/quoll/version.rb" />
+        <option value="$PROJECT_DIR$/app/models/quoll_table.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/quoll_helper.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="145" />
-    <option name="y" value="23" />
-    <option name="width" value="1030" />
-    <option name="height" value="877" />
+    <option name="x" value="20" />
+    <option name="y" value="36" />
+    <option name="width" value="1284" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -326,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,7 +326,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,43 +344,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,20 +413,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Quoll" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -477,13 +425,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.scopes" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.scopes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development: Quoll">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -731,15 +679,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="23" width="1030" height="877" extended-state="0" />
-    <editor active="false" />
+    <frame x="20" y="36" width="1284" height="791" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32564104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32132566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27743903" sideWeight="0.67435896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2552504" sideWeight="0.67867434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -748,6 +696,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -814,9 +763,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.14/guides/code/getting_started/db/migrate/20110901012815_create_comments.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="191" selection-end="191" vertical-scroll-proportion="0.15852048" />
+        <state line="137" column="16" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/quoll/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/quoll_tasks.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.10033445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/quoll.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="37" selection-end="37" vertical-scroll-proportion="0.075250834" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -831,87 +797,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130804183124_for_quoll.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="648" selection-end="648" vertical-scroll-proportion="0.43824703">
-          <folding />
-        </state>
+        <state line="22" column="37" selection-start="648" selection-end="648" vertical-scroll-proportion="0.43824703" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_query.rb">
+    <entry file="file://$PROJECT_DIR$/lib/quoll/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="322" selection-end="322" vertical-scroll-proportion="0.23012552" />
+        <state line="15" column="15" selection-start="638" selection-end="638" vertical-scroll-proportion="0.46296296" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_group.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.28767124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_form_data.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.4527027">
-          <folding />
-        </state>
+        <state line="13" column="9" selection-start="394" selection-end="394" vertical-scroll-proportion="0.26785713" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_shared.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.35791758">
+        <state line="10" column="18" selection-start="388" selection-end="388" vertical-scroll-proportion="0.22354695" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_form_data.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="633" selection-end="633" vertical-scroll-proportion="0.9207161" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_group.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="307" selection-end="307" vertical-scroll-proportion="0.5370844" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_query.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.21483377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="16" selection-start="4043" selection-end="4043" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/quoll_table.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="7" selection-start="736" selection-end="760" vertical-scroll-proportion="0.0">
+        <state line="65" column="14" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/quoll_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="17" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/quolloracle/_show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="62" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/quoll_component.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="66" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quoll/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="9" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quoll/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/quoll_tasks.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/quoll.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="42" selection-end="42" vertical-scroll-proportion="0.15789473">
+        <state line="11" column="15" selection-start="191" selection-end="191" vertical-scroll-proportion="0.33255813">
           <folding />
         </state>
       </provider>

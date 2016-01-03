@@ -9,7 +9,7 @@ module QuollHelper
       f.inputs "Details" do
         f.input :name
       end
-      f.buttons
+      f.actions
     end
     show do |g|
       attributes_table do
@@ -24,6 +24,7 @@ module QuollHelper
       column :quoll_group
       default_actions
     end
+
     form do |f|
       f.inputs "Details" do
         f.input :name
@@ -32,7 +33,7 @@ module QuollHelper
         f.input :report
         f.input :quoll_group
       end
-      f.buttons
+      f.actions
     end
     show do |q|
       attributes_table do
@@ -62,7 +63,9 @@ module QuollHelper
         if sql[0].class==Symbol
           @table.add_sql(sql[1]) if sql[0]==:normal
           @table.add_sql_row_col_val(sql[1]) if sql[0]==:row_col_val
+          Rails.logger.info("SQL ====> #{sql[1]}")
         else
+          Rails.logger.info("SQL ====> #{sql[0]}")
           @table.add_sql(sql[0])
         end
       end

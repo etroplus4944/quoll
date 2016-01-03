@@ -28,13 +28,10 @@ class QuollTable
       @cols.each do |col|
         new_row<<get(row, col).to_f || null_value
         new_row << (@color[row] || "")
-
         end
       r<<new_row
     end
-    puts "----"
     result=r.to_s.gsub(/:role=>/,"role:").to_s
-    puts result
     result
   end
 
@@ -65,6 +62,8 @@ class QuollTable
   def add_sql_row_col_val(sql)
     results=ActiveRecord::Base.connection().execute(sql)
     results.each do |row|
+      puts ":::::::"
+      puts row
       # mysql returns array, postgres not an array
       if row.class!=Array
         cols=row.values
